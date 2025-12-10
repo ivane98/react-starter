@@ -1,11 +1,13 @@
 import Header from "./components/Header";
-import UserInput from "./components/UserInput";
+import Quiz from "./components/Quiz";
 
 function App() {
   return (
     <>
       <Header />
-      <UserInput />
+      <main>
+        <Quiz />
+      </main>
     </>
   );
 }
